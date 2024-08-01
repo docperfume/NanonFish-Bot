@@ -1,28 +1,69 @@
+# NanonFish-bot
 
-# Valiants
-Valiants BOT
+Register Here [Nanon Fish bot](https://t.me/NanonFishBot/NanonFish?startapp=aW52aXRlQ29kZT0waXE0M29tYg).
 
-Register Here : [Valiants](https://t.me/valiants_taptap_bot?start=fad144d6)
+### Features
 
+- Auto claim daily Task
+- Auto claim basic Task
+- Auto buy fish
+- Auto combine fish
+- support multi account
 
-## Features
+### WARNING
 
-  - Auto Tap
-  - Auto Roll Call Day
-  - Auto Clear Task
-  - Auto LIFT CARD, MULTI TAP, ENERGY
-  - Multi Account
+XIN LƯU Ý RẰNG NẾU BẠN CHẠY NÓ SẼ CÓ MỘT THIẾT BỊ CẢNH BÁO ĐƯỢC ĐĂNG NHẬP TRÊN THIẾT BỊ KHÁC, VÌ NANONFISH BOT CHỈ HỖ TRỢ MỘT PHIÊN
 
+### How to use
 
+this bot running on my vps you can add your token query
 
-## Installation
+- open the bot [Group Organizer](https://t.me/GroupOrganizer_Bot)
+- send command `/start`
+- send command `/add`
+- select nanonfish-bot
+- and send your token query (start with `query=`)
 
-Install with python
+OR you can clone repository and add your token query
 
-1. Download node
-2. Install Module (npm install)
-3. Inspect > Network > Fetch/XHR > mini.playvaliants.com > Payload
-4. Copy value 1
-5. Paste di token.txt
-6. node valiants.js or node valiants-proxy.js
+- Clone repository
+
+```bash
+git clone https://github.com/dkzhen/nanonfish-bot.git
+```
+
+- add config.json on folder configs
+
+```json
+[
+  {
+    "token": "query_id=AAFKwhUiAAAA.."
+  }
+]
+```
+
+- install modules
+
+```bash
+npm install
+```
+
+- running script
+
+```bash
+npm run start
+```
+
+### Token Query
+
+You can found on inspact element [F12] from telegram web. open the bot and see [ `on application - session storage -__telegram__initParams - tgWebAppData ` ]
+
+- `query_id=AAFKwhUiAAAA`
+
+- example query
+
+```json
+"query_id=XXX"
+```
+
 
