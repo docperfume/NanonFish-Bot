@@ -56,7 +56,7 @@ npm run start
 
 ### Token Query
 
-You can found on inspact element [F12] from telegram web. open the bot and see [ `on application - session storage -__telegram__initParams - tgWebAppData ` ]
+Bạn có thể tìm thấy phần tử inspact [F12] từ trang web telegram. mở bot và xem [ `on application - session storage -__telegram__initParams - tgWebAppData ` ]
 
 - `query_id=AAFKwhUiAAAA`
 
